@@ -2,6 +2,11 @@ package FiniteStateMachine;
 
 import java.io.IOException;
 
+/**
+ * @author Sergey Fadeev
+ * 02.2020
+ */
+
 public class PeriodOfLecturesState extends State implements HasTransitionToNextState {
     final private int moduleNumber;
 

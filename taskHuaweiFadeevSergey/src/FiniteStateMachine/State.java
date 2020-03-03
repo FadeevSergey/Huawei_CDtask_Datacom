@@ -1,5 +1,10 @@
 package FiniteStateMachine;
 
+/**
+ * @author Sergey Fadeev
+ * 02.2020
+ */
+
 abstract class State {
 
     final private String message;

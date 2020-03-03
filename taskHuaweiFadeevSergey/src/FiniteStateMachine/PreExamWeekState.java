@@ -1,5 +1,10 @@
 package FiniteStateMachine;
 
+/**
+ * @author Sergey Fadeev
+ * 02.2020
+ */
+
 class PreExamWeekState extends State implements HasTransitionToNextState {
     PreExamWeekState(final String message) {
         super(message);

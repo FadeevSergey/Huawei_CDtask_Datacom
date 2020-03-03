@@ -2,6 +2,11 @@ package FiniteStateMachine;
 
 import java.io.IOException;
 
+/**
+ * @author Sergey Fadeev
+ * 02.2020
+ */
+
 class ControlTestState extends AbstractTakeExamOrTestState implements HasTransitionToNextState {
 
     ControlTestState(String message) {

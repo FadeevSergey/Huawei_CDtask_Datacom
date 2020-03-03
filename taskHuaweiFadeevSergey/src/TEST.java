@@ -1,6 +1,10 @@
 import java.io.IOException;
-
 import FiniteStateMachine.*;
+
+/**
+ * @author Sergey Fadeev
+ * 02.2020
+ */
 
 public class TEST {
     private static void startStateMachine() throws IOException {

@@ -4,6 +4,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * @author Sergey Fadeev
+ * 02.2020
+ */
+
 abstract class AbstractTakeExamOrTestState extends State implements HasTransitionToNextState {
 
     private static int mark;

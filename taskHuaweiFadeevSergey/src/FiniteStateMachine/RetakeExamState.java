@@ -1,5 +1,10 @@
 package FiniteStateMachine;
 
+/**
+ * @author Sergey Fadeev
+ * 02.2020
+ */
+
 class RetakeExamState extends AbstractTakeExamOrTestState {
     private int numberOfTry;
 
